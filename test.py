@@ -8,10 +8,10 @@ def display_results(x,y):
   import matplotlib.pyplot as plt
   plt.style.use('fivethirtyeight')
 
-  consumerKey="G0oiJID1FORIUB06d7jThBk1E"
-  consumerSecret="9oFncuIEBcF0dqaIkA5Y0gGct5CRECc1SjKPGTzKzllCjNoujr"
-  accessToken="1411813969321291776-2OyZoRrwgyY5bQg1sMY7qc3qQryvIp"
-  accessTokenSecret="E6Fzg9HRBwiA1Cl3CmZZt9ogTwqJIEahG8hi6aMPDzymM"
+  consumerKey=""
+  consumerSecret=""
+  accessToken=""
+  accessTokenSecret=""
 
   authenticate=tweepy.OAuthHandler(consumerKey,consumerSecret)
   authenticate.set_access_token(accessToken,accessTokenSecret)
